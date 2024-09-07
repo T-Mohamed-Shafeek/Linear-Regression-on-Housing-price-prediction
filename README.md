@@ -19,19 +19,32 @@ Dataset
 The dataset used in this project consists of the following 13 features:
 
 Price: Price of the house.
+
 Area: Total area of the house (in square feet).
+
 Bedrooms: Number of bedrooms.
+
 Bathrooms: Number of bathrooms.
+
 Stories: Number of stories in the house.
+
 Mainroad: Whether the house is connected to a main road (Yes/No).
+
 Guestroom: Whether the house has a guestroom (Yes/No).
+
 Basement: Whether the house has a basement (Yes/No).
+
 Hotwaterheating: Whether the house has hot water heating (Yes/No).
+
 Airconditioning: Whether the house has air conditioning (Yes/No).
+
 Parking: Number of parking spaces available.
+
 Prefarea: Whether the house is in a preferred area (Yes/No).
+
 Furnishing status: Furnishing status of the house (Fully Furnished, Semi-Furnished, Unfurnished).
-Requirements
+
+## **Requirements :**
 The following libraries are required to run the notebook:
 
 pandas
@@ -39,3 +52,6 @@ numpy
 matplotlib
 seaborn
 scikit-learn
+
+## **Conclusion :**
+This project demonstrates how to apply linear regression to predict housing prices. The model can be further improved by tuning hyperparameters, adding more features, or experimenting with other regression models.
